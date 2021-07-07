@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-# description: 
+description: Machine Learning Scientist @<a href="https://layer6.ai">Layer6 AI</a>
 
 profile:
   align: right
