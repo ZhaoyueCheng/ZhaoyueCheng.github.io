@@ -8,7 +8,7 @@ middle_name:
 last_name: Cheng
 email: 
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Zhaoyue (Joey) Cheng's Home Page
+  Personal Homepage of Zhaoyue (Joey) Cheng, I mostly work research and applications of Recommender System, Natural Language Processing and Information Retrieval.
 footer_text: >
   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
