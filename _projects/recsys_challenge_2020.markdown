@@ -4,7 +4,7 @@ title: >
     ACM Twitter RecSys Challenge 2020 2nd Place Solution
 description: >
     Code and Paper for project Predicting Twitter Engagement With Deep Language Models (ACM Twitter RecSys Challenge 2020 2nd place Solution)
-img: /assets/img/projects/recsys_challenge2020.png
+img: assets/img/projects/recsys_challenge2020.png
 importance: 5
 category: Applied
 ---
@@ -15,7 +15,7 @@ category: Applied
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/projects/recsys_challenge2020.png' | relative_url }}" alt="" title="Model Architecture"/>
+        {% responsive_image path: assets/img/projects/recsys_challenge2020.png title: "Model Architecture" class: "img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">

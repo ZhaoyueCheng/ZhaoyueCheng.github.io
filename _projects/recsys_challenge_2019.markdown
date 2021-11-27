@@ -4,7 +4,7 @@ title: >
     ACM Trivago RecSys Challenge 2019 2nd Place Solution
 description: >
     Code and Paper for project Robust Contextual Models for In-Session Personalization (ACM Trivago RecSys Challenge 2019 2nd place Solution)
-img: /assets/img/projects/recsys_challenge2019.png
+img: assets/img/projects/recsys_challenge2019.png
 importance: 5
 category: Applied
 ---
@@ -15,7 +15,7 @@ category: Applied
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/projects/recsys_challenge2019.png' | relative_url }}" alt="" title="Data Partition"/>
+        {% responsive_image path: assets/img/projects/recsys_challenge2019.png title: "Data Partition" class: "img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">

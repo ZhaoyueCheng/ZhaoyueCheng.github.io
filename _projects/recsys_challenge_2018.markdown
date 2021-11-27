@@ -4,7 +4,7 @@ title: >
     ACM Spotify RecSys Challenge 2018 1st Place Solution
 description: >
     Code and Paper for project Two-stage Model for Automatic Playlist Continuation at Scale (ACM Spotify RecSys Challenge 2018 1st place Solution)
-img: /assets/img/projects/recsys_challenge2018.png
+img: assets/img/projects/recsys_challenge2018.png
 importance: 3
 category: Applied
 ---
@@ -15,7 +15,7 @@ category: Applied
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/projects/recsys_challenge2018.png' | relative_url }}" alt="" title="Model Pipeline"/>
+        {% responsive_image path: assets/img/projects/recsys_challenge2018.png title: "Model Pipeline" class: "img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">

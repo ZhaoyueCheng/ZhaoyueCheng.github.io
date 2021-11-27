@@ -4,7 +4,7 @@ title: >
     HGCF (WWW 2021)
 description: >
     Code and Paper for project HGCF: Hyperbolic Graph Convolution Networks for Collaborative Filtering (WWW 2021)
-img: /assets/img/projects/hgcf.png
+img: assets/img/projects/hgcf.png
 importance: 1
 category: Research
 ---
@@ -15,7 +15,7 @@ category: Research
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/projects/hgcf.png' | relative_url }}" alt="" title="Model Architecture"/>
+        {% responsive_image path: assets/img/projects/hgcf.png title: "Model Architecture" class: "img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
