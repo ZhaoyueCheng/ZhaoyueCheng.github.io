@@ -1,0 +1,7 @@
+deployment:
+
+./bin/deploy --user
+
+test locally:
+
+bundle exec jekyll serve
