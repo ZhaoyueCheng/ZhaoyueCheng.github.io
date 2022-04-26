@@ -2,9 +2,9 @@
 layout: page
 title: projects
 permalink: /projects/
-description: Open Source Research and Applied I've worked on
+description: Selected Research and Applied Research Projects
 nav: true
-display_categories: [Research, Applied]
+display_categories: [Research, Applied Research]
 horizontal: false
 ---
 <div class="projects">

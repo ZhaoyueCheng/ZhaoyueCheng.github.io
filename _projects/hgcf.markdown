@@ -1,11 +1,11 @@
 ---
 layout: page
 title: >
-    HGCF (WWW 2021)
+    HGCF: Hyperbolic Graph Convolution Networks for Collaborative Filtering (WWW 2021)
 description: >
     Code and Paper for project HGCF: Hyperbolic Graph Convolution Networks for Collaborative Filtering (WWW 2021)
 img: assets/img/projects/hgcf.png
-importance: 1
+importance: 2
 category: Research
 ---
 

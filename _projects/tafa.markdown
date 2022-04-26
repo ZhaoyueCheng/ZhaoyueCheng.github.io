@@ -1,11 +1,11 @@
 ---
 layout: page
 title: >
-    TAFA (RecSys 2020)
+    TAFA: two-headed attention fused autoencoder for context-aware recommendations (RecSys 2020)
 description: >
     Code and Paper for project TAFA: two-headed attention fused autoencoder for context-aware recommendations (RecSys 2020)
 img: assets/img/projects/tafa.png
-importance: 1
+importance: 3
 category: Research
 ---
 

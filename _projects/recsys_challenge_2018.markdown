@@ -6,7 +6,7 @@ description: >
     Code and Paper for project Two-stage Model for Automatic Playlist Continuation at Scale (ACM Spotify RecSys Challenge 2018 1st place Solution)
 img: assets/img/projects/recsys_challenge2018.png
 importance: 3
-category: Applied
+category: Applied Research
 ---
 
 ### Two-stage Model for Automatic Playlist Continuation at Scale (ACM **Spotify** RecSys Challenge 2018 **1st** place Solution) [Paper](/assets/pdf/recsys2018_challenge.pdf) [Code](https://github.com/layer6ai-labs/RecSys2018)

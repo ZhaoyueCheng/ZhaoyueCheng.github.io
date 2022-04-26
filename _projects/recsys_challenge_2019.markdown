@@ -3,13 +3,13 @@ layout: page
 title: >
     ACM Trivago RecSys Challenge 2019 2nd Place Solution
 description: >
-    Code and Paper for project Robust Contextual Models for In-Session Personalization (ACM Trivago RecSys Challenge 2019 2nd place Solution)
+    Paper for project Robust Contextual Models for In-Session Personalization (ACM Trivago RecSys Challenge 2019 2nd place Solution)
 img: assets/img/projects/recsys_challenge2019.png
 importance: 5
-category: Applied
+category: Applied Research
 ---
 
-### Robust Contextual Models for In-Session Personalization (ACM **Trivago** RecSys Challenge 2021 **2nd** place Solution) [Paper](/assets/pdf/recsys2019_challenge.pdf) [Code](https://github.com/layer6ai-labs/RecSys2019)
+### Robust Contextual Models for In-Session Personalization (ACM **Trivago** RecSys Challenge 2021 **2nd** place Solution) [Paper](/assets/pdf/recsys2019_challenge.pdf)
 
 <br />
 

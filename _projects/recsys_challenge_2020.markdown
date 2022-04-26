@@ -3,13 +3,13 @@ layout: page
 title: >
     ACM Twitter RecSys Challenge 2020 2nd Place Solution
 description: >
-    Code and Paper for project Predicting Twitter Engagement With Deep Language Models (ACM Twitter RecSys Challenge 2020 2nd place Solution)
+    Paper for project Predicting Twitter Engagement With Deep Language Models (ACM Twitter RecSys Challenge 2020 2nd place Solution)
 img: assets/img/projects/recsys_challenge2020.png
 importance: 5
-category: Applied
+category: Applied Research
 ---
 
-### Predicting Twitter Engagement With Deep Language Models (ACM **Twitter** RecSys Challenge 2021 **2nd** place Solution) [Paper](/assets/pdf/recsys2020_challenge.pdf) [Code](https://github.com/layer6ai-labs/RecSys2020)
+### Predicting Twitter Engagement With Deep Language Models (ACM **Twitter** RecSys Challenge 2021 **2nd** place Solution) [Paper](/assets/pdf/recsys2020_challenge.pdf) 
 
 <br />
 
