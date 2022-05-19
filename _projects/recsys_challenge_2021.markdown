@@ -10,8 +10,7 @@ importance: 5
 category: Applied Research
 ---
 
-### User Engagement Modeling with Deep Learning and Language
-Models (ACM **Twitter** RecSys Challenge 2021 **3nd** place Solution) [Paper](/assets/pdf/recsys2021_challenge.pdf) 
+### User Engagement Modeling with Deep Learning and Language Models (ACM **Twitter** RecSys Challenge 2021 **3nd** place Solution) [Paper](/assets/pdf/recsys2021_challenge.pdf) 
 
 <br />
 
