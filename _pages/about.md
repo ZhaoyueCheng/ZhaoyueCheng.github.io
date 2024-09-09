@@ -2,20 +2,21 @@
 layout: about
 title: about
 permalink: /
-subtitle: Software Engineer, Machine Learning # <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: # <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  more_info: 
+  more_info: >
+    Software Engineer, Machine Learning
 
 news: false # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I'm currently working as a Software Engineer, Machine Learning, I obtained my Master and Bachelor's degree in Computer Science at the [Univeristy of Toronto](https://web.cs.toronto.edu/).
+I'm currently working as a Software Engineer, Machine Learning at [Google](https://about.google/), I obtained my Master and Bachelor's degree in Computer Science at the [Univeristy of Toronto](https://web.cs.toronto.edu/).
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
