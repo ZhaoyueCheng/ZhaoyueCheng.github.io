@@ -1,20 +1,25 @@
-require "active_support/all"
+require_relative "citation-formatting"
 require 'nokogiri'
 require 'open-uri'
-
-module Helpers
-  extend ActiveSupport::NumberHelper
-end
 
 module Jekyll
   class GoogleScholarCitationsTag < Liquid::Tag
     Citations = { }
+    CITED_BY_REGEX = /Cited by (\d+[,\d]*)/
 
     def initialize(tag_name, params, tokens)
       super
       splitted = params.split(" ").map(&:strip)
       @scholar_id = splitted[0]
       @article_id = splitted[1]
+
+      if @scholar_id.nil? || @scholar_id.empty?
+        puts "Invalid scholar_id provided"
+      end
+
+      if @article_id.nil? || @article_id.empty?
+        puts "Invalid article_id provided"
+      end
     end
 
     def render(context)
@@ -43,7 +48,7 @@ module Jekyll
 
           if !description_meta.empty?
             cited_by_text = description_meta[0]['content']
-            matches = cited_by_text.match(/Cited by (\d+[,\d]*)/)
+            matches = cited_by_text.match(CITED_BY_REGEX)
 
             if matches
               citation_count = matches[1].sub(",", "").to_i
@@ -51,23 +56,22 @@ module Jekyll
 
           elsif !og_description_meta.empty?
             cited_by_text = og_description_meta[0]['content']
-            matches = cited_by_text.match(/Cited by (\d+[,\d]*)/)
+            matches = cited_by_text.match(CITED_BY_REGEX)
 
             if matches
               citation_count = matches[1].sub(",", "").to_i
             end
           end
 
-        citation_count = Helpers.number_to_human(citation_count, :format => '%n%u', :precision => 2, :units => { :thousand => 'K', :million => 'M', :billion => 'B' })
+        citation_count = CitationFormatting.number_to_human(citation_count)
 
       rescue Exception => e
         # Handle any errors that may occur during fetching
         citation_count = "N/A"
 
         # Print the error message including the exception class and message
-        puts "Error fetching citation count for #{article_id}: #{e.class} - #{e.message}"
+        puts "Error fetching citation count for #{article_id} in #{article_url}: #{e.class} - #{e.message}"
       end
-
 
       GoogleScholarCitationsTag::Citations[article_id] = citation_count
       return "#{citation_count}"

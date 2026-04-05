@@ -1,11 +1,7 @@
-require "active_support/all"
+require_relative "citation-formatting"
 require 'net/http'
 require 'json'
 require 'uri'
-
-module Helpers
-  extend ActiveSupport::NumberHelper
-end
 
 module Jekyll
   class InspireHEPCitationsTag < Liquid::Tag
@@ -38,7 +34,7 @@ module Jekyll
         citation_count = data["hits"]["hits"][0]["metadata"]["citation_count"].to_i
 
         # Format the citation count for readability
-        citation_count = Helpers.number_to_human(citation_count, format: '%n%u', precision: 2, units: { thousand: 'K', million: 'M', billion: 'B' })
+        citation_count = CitationFormatting.number_to_human(citation_count)
 
       rescue Exception => e
         # Handle any errors that may occur during fetching
