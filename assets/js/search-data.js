@@ -23,7 +23,12 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "projects-hgcf-hyperbolic-graph-convolution-networks-for-collaborative-filtering-www-2021",
+        },{id: "projects-project-10",
+          title: 'project 10',
+          description: "A project with an introduction section",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/10_project/";
+            },},{id: "projects-hgcf-hyperbolic-graph-convolution-networks-for-collaborative-filtering-www-2021",
           title: 'HGCF: Hyperbolic Graph Convolution Networks for Collaborative Filtering (WWW 2021)',
           description: "Code and Paper for project HGCF: Hyperbolic Graph Convolution Networks for Collaborative Filtering (WWW 2021)",
           section: "Projects",handler: () => {
