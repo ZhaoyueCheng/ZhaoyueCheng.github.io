@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-04-15'
+  last_updated: '2026-04-22'
 papers:
   phHObUgAAAAJ:2osOgNQ5qMEC:
     citations: 9
@@ -18,7 +18,7 @@ papers:
     title: Recommendation with neighbor-aware hyperbolic embedding
     year: '2025'
   phHObUgAAAAJ:Tyk-4Ss8FVUC:
-    citations: 207
+    citations: 209
     title: 'HGCF: Hyperbolic graph convolution networks for collaborative filtering'
     year: '2021'
   phHObUgAAAAJ:W7OEmFMy1HYC:
@@ -26,7 +26,7 @@ papers:
     title: User engagement modeling with deep learning and language models
     year: '2021'
   phHObUgAAAAJ:WF5omc3nYNoC:
-    citations: 19
+    citations: 20
     title: Session-based recommendation with transformers
     year: '2022'
   phHObUgAAAAJ:Y0pCki6q_DkC:
@@ -46,7 +46,7 @@ papers:
     title: Two-stage model for automatic playlist continuation at scale
     year: '2018'
   phHObUgAAAAJ:eQOLeE2rZwMC:
-    citations: 17
+    citations: 19
     title: Two-headed attention fused autoencoder for context-aware recommendation
     year: '2022'
   phHObUgAAAAJ:qjMakFHDy7sC:
@@ -54,6 +54,6 @@ papers:
     title: Predicting twitter engagement with deep language models
     year: '2020'
   phHObUgAAAAJ:ufrVoPGSRksC:
-    citations: 13
+    citations: 15
     title: Recommendation with neighbor-aware hyperbolic embedding
     year: '2025'
